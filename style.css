@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Noto+Serif:ital@1&family=Oswald:wght@400;500&family=Roboto+Slab:wght@400;600&family=Roboto:wght@400;500;900&family=Satisfy&display=swap');
+body{
+    background-color:#5D5C61;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*navbar*/
+header{
+    background-color:#c3073f;    
+    color: white;
+    padding: 10px 0;
+}
+header nav{
+    float: right;
+}
+header ul{
+    padding: 0;
+    margin-top: 0;
+}
+header li{
+display: inline;
+padding: 0,20;
+font-weight: bold ;
+font-size: 15px;
+font-family: 'Roboto Slab', serif;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header a:hover{
+color:white;
+
+}
+#caption{
+    float: left;
+}
+#caption h1{
+    margin: 0;
+}
+header .logo-gold{
+color:#1a1a1d;
+}
+/*end of navbar*/
+/*hero section*/
+#Hero{
+    min-height: 500px;
+    background-color: #252926;
+}
+#Hero h4{
+    font-size: 25px;
+    margin-top: 160px;
+    margin-bottom: 0%;
+    text-align: center;
+    color: #c3073f;
+}
+#Hero h1{
+    font-size: 75px;
+    margin-top: 0%;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #950740;
+    font-family:'Dancing Script', cursive;
+}
+#Hero button{
+    font-size: 19px;
+    background-color: white;
+    padding:10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    color:crimson;
+    display: flex;
+    align-items: center;
+    margin:auto;
+}
+#Hero button:hover{
+background-color: crimson;
+color: white;
+border: 1px solid chocolate;
+}
+/*end of hero section*/
+#seperate{
+    padding: 5px;
+    background-color: black;
+}
+/*About me section*/
+#about{
+    padding: 150px 0px;
+    background-color:#252926;
+}
+#about h2{
+    color: ;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about-box1{
+width: 20%;
+float: left;
+padding: 10px;
+}
+.about-box1 img{
+    display: block;
+    margin:auto;
+}
+.about-box2{
+    width: 60%;
+    float:right;
+    padding: 10px;
+    color:azure;
+    text-align: justify;
+}
+#about button{
+    font-size: 15px;
+    background-color: white;
+    border-radius: 1px solid ;
+    font-weight: bold;
+    color:crimson;
+    padding: 8px 20px;
+}
+#about button:hover{
+    background-color: crimson;
+    color: white;
+    border: 1px solid gray;
+}
+/*end of about section*/
+#seperate {
+    padding: 5px;
+    background-color: black;
+}
+/*my skills section*/
+#skills{
+    background-color: #252926;
+    padding: 70px 0;
+}
+.box{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 60px;
+    color:#c3073f;
+}
+.card {
+    background: white;
+    border-radius: 2px;
+    display: inline-block;
+    height: 300px;
+    margin: 1rem;
+    position: relative;
+    width: 35%;
+}
+.card-1 {
+    box-shadow: 0 1px 3px #4e4e50 , 0 1px 2px #1a1a1d ;
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.card-1:hover {
+    box-shadow: 0 14px 28px #4e4e50 , 0 10px 10px #1a1a1d;
+}
+#skills h2{
+    color: #950740;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#skills h3{
+    font-size: 30px;
+    font-family: 'Dancing Script',cursive;
+    font-weight: bolder;
+}
+#skills p{
+    font-size: 20px;
+    font-family: 'Satisfy', cursive;
+    font-weight: 300px;
+    color: brown;
+}
+/*contact session*/
+#form h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #950740;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
+}
+#form{
+    margin: 5% 25%;
+    padding:70px;
+    background-color: white;
+    text-align: center;
+}
+#form .form-group{
+    font-size: 20px;
+    color: #6f2232;
+    font-weight: bold;
+}
+input{
+    width: 250px;
+    padding: 5px;
+    margin: 2px 0;
+}
+#form .button{
+    font-size: 15px;
+    font-weight: bold;
+    color: crimson;
+    background-color: white;
+    border: 1px solid black;
+}
+#form .button:hover{
+    color:#4e4e50;
+    background-color:palevioletred;
+}
+/*end of contact section*/
+/*footer section*/
+footer{
+padding:10px;
+color:#c3073f;
+background-color: white;
+text-align: center;
+}
+/*end of footer section*/
+
+#name-validation, #email-validation, #msge-validation{
+  color: purple;
+  font-size: 14px;
+  display: none;
+}
